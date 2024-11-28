@@ -1,0 +1,11 @@
+.search{
+    @apply relative;
+}
+
+.input{
+    @apply w-60 h-10 pl-2 pr-12 border-b-4 border-blue-900/60 transition-opacity focus:border-blue-900 bg-yellow-50 rounded focus:outline-none text-sm font-semibold;
+}
+
+.search_icon {
+    @apply absolute right-3 top-1/2 -translate-y-1/2;
+}

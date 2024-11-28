@@ -1,0 +1,31 @@
+.card {
+    @apply bg-yellow-50 flex flex-col items-center h-80 w-72 drop-shadow-md cursor-pointer hover:scale-105 transition;
+}
+
+.shape {
+    @apply absolute -top-14 w-96 select-none -rotate-[240deg];
+}
+
+.pokemon_img {
+    @apply w-28 h-2/5 object-center py-4 select-none;
+}
+
+.pokemon_name {
+    @apply text-xl py-2 font-bold capitalize;
+}
+
+.pokemon_type {
+    @apply text-sm font-semibold text-white capitalize text-center px-4 py-1.5 bg-green-500 rounded-full;
+}
+
+.stats {
+    @apply capitalize grid grid-cols-3 gap-x-8 gap-y-3 m-auto justify-between text-center items-center text-xs font-semibold;
+}
+
+.stats_heading {
+    @apply text-gray-400 flex flex-col-reverse items-center;
+}
+
+.stats_value {
+    @apply text-black;
+}

@@ -1,0 +1,11 @@
+.nav {
+    @apply flex justify-around items-center py-5 px-12 gap-10 flex-wrap;
+}
+
+.main {
+    @apply flex flex-wrap gap-5 justify-center py-5;
+}
+
+.loading {
+    @apply font-semibold text-white text-xl;
+}
