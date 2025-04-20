@@ -3,7 +3,7 @@
 }
 
 .main {
-    @apply flex flex-wrap gap-5 justify-center py-5;
+    @apply flex flex-wrap gap-5 justify-center py-5 px-8;
 }
 
 .loading {
